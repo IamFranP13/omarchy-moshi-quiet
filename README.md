@@ -35,13 +35,14 @@ Click the icon to toggle. If `systemctl` fails, a desktop notification shows the
 ## Install
 
 ```bash
-omarchy plugin add https://github.com/IamFranP13/omarchy-moshi-quiet --enable
+omarchy plugin add https://github.com/IamFranP13/omarchy-moshi-quiet
+omarchy plugin enable io.github.iamfranp13.moshi-quiet --before omarchy.indicators
 ```
 
-It goes into the `centerBegin` section, next to the other indicators. To move it:
+The second command puts it right before the built-in indicators (stay awake, night light, ...) in the `centerBegin` section, where it looks like one of them. Any other placement works too, for example:
 
 ```bash
-omarchy bar move io.github.iamfranp13.moshi-quiet --section centerBegin --index 0
+omarchy bar move io.github.iamfranp13.moshi-quiet --section right --index 0
 ```
 
 ## Settings

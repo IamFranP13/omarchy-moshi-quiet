@@ -26,7 +26,6 @@
     "displayName": "Moshi Quiet",
     "description": "Shows when Moshi phone notifications are on; hover the bar and click to toggle",
     "category": "System",
-    "defaultSection": "centerBegin",
     "allowMultiple": false,
     "defaults": {
       "persistAcrossReboot": true
