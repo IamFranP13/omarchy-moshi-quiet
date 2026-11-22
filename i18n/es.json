@@ -1,0 +1,8 @@
+{
+  "tooltip.on": "Moshi: avisos al móvil activados (clic para silenciar)",
+  "tooltip.off": "Moshi: avisos al móvil desactivados (clic para activar)",
+  "error.notInstalled": "moshi-hook no está instalado (no existe el servicio de usuario moshi-hook.service).",
+  "error.switchFailed": "No se pudo cambiar moshi-hook: %1",
+  "setting.persist": "Mantener los avisos silenciados tras reiniciar",
+  "tooltip.notInstalled": "Moshi: moshi-hook no está instalado (clic para ver cómo instalarlo)"
+}

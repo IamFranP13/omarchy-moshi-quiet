@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.iamfranp13.moshi-quiet",
+  "name": "Moshi Quiet",
+  "version": "1.0.0",
+  "author": "Francisco (IamFranP13)",
+  "license": "MIT",
+  "description": "Silence Moshi phone notifications while you are at the computer: an indicator-style bar toggle for moshi-hook",
+  "homepage": "https://github.com/IamFranP13/omarchy-moshi-quiet",
+  "repository": "https://github.com/IamFranP13/omarchy-moshi-quiet.git",
+  "keywords": [
+    "moshi",
+    "notifications",
+    "push",
+    "agents",
+    "indicator",
+    "bar-widget"
+  ],
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "Moshi Quiet",
+    "description": "Shows when Moshi phone notifications are on; hover the bar and click to toggle",
+    "category": "System",
+    "defaultSection": "centerBegin",
+    "allowMultiple": false,
+    "defaults": {
+      "persistAcrossReboot": true
+    },
+    "schema": [
+      {
+        "key": "persistAcrossReboot",
+        "type": "boolean",
+        "label": "Keep notifications silenced after a reboot",
+        "defaultValue": true
+      }
+    ]
+  }
+}

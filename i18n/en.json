@@ -1,0 +1,8 @@
+{
+  "tooltip.on": "Moshi: phone notifications on (click to silence)",
+  "tooltip.off": "Moshi: phone notifications off (click to turn on)",
+  "error.notInstalled": "moshi-hook is not installed (no moshi-hook.service user unit).",
+  "error.switchFailed": "Could not switch moshi-hook: %1",
+  "setting.persist": "Keep notifications silenced after a reboot",
+  "tooltip.notInstalled": "Moshi: moshi-hook is not installed (click for the install guide)"
+}
